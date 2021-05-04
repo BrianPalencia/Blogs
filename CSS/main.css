@@ -35,47 +35,32 @@ header .header-icons-container .icons {
     align-items: center;
     justify-content: space-between;
     justify-self: end;
-    margin-right: 80px;
+    margin-right: 50px;
 }
 .facebook-logo {
-    position: absolute;
-    height: 35px;
-    width: 35px;
-    margin-top: -16px;
     background-image: url('../assets/icons/facebooklogo.svg');
     background-repeat: no-repeat;
 }
 .twitter-logo {
-    position: absolute;
-    height: 35px;
-    width: 35px;
-    margin-top: -16px;
     background-image: url('../assets/icons/twitterlogo.svg');
     background-repeat: no-repeat;
 }
 .instagram-logo {
-    position: absolute;
-    height: 35px;
-    width: 35px;
-    margin-top: -16px;
     background-image: url('../assets/icons/instagramlogo.svg');
     background-repeat: no-repeat;
 }
 .linkedin-logo {
-    position: absolute;
-    height: 35px;
-    width: 35px;
-    margin-top: -16px;
     background-image: url('../assets/icons/linkedinlogo.svg');
     background-repeat: no-repeat;
 }
 .youtube-logo {
-    position: absolute;
-    height: 35px;
-    width: 35px;
-    margin-top: -16px;
     background-image: url('../assets/icons/youtubelogo.svg');
     background-repeat: no-repeat;
+}
+.social {
+    display: block;
+    height: 35px;
+    width: 35px;
 }
 nav {
     display: grid;
@@ -127,20 +112,23 @@ nav .profile-link a {
     text-align: center;
 }
 .home-main-buttom {
+    border: 1px solid #5b2080;
     width: 110px;
     height: 50px;
     background: #5b2080;
     display: grid;
     align-items: center;
+    transition: all ease .3s;
     border-radius: 3px;
-}
-.home-main-buttom:hover {
-    color: rgb(16, 16, 16);
-    box-shadow: 0 4px 16px rgb(28, 27, 30);
 }
 .home-main-buttom a {
     font-weight: 700;
     font-size: 18px;
+    color: #fff;
+}
+.home-main-buttom:hover {
+    background: #62218a;
+    color: #fff;
 }
 
 .blogs-main {
@@ -160,6 +148,7 @@ nav .profile-link a {
 }
 .blogs-news-img-container img {
     width: 85%;
+    border-radius: 3px;
 }
 .blogs-news-info-container {
     grid-column: 2;
@@ -179,6 +168,9 @@ nav .profile-link a {
     border: 1px solid #5b2080;
     padding: 10px 15px;
     font-size: 12px;
+    display: inline-block;
+    transition: all ease .3s;
+    border-radius: 3px;
 }
 .blogs-buttom:hover {
     background: #5b2080;
@@ -189,13 +181,19 @@ nav .profile-link a {
     padding-left: 10px;
     max-width: 30%;
     margin-bottom: 50px;
-    margin-right: 15px;
+    margin-right: 11px;
 }
 .blogs-posts-container .post-container p {
     margin-bottom: 35px;
 }
 .blogs-posts-container .post-container img {
     width: 100%;
+    border-radius: 3px;
+}
+.post-container {
+    padding: 12px;
+    background-color: #ebd1e3;
+    border-radius: 3px;
 }
 footer {
     width: 100%;
