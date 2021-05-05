@@ -15,6 +15,10 @@ a {
     left: 0;
     right: 0
 }
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
 header {
     width: 100%;
     height: 140px;
@@ -36,6 +40,7 @@ header .header-icons-container .icons {
     justify-content: space-between;
     justify-self: end;
     margin-right: 50px;
+    margin-left: 50px;
 }
 .facebook-logo {
     background-image: url('../assets/icons/facebooklogo.svg');
@@ -128,7 +133,7 @@ nav .profile-link a {
 }
 .home-main-buttom:hover {
     background: #62218a;
-    color: #fff;
+    color: rgb(242, 239, 239);
 }
 
 .blogs-main {
@@ -181,7 +186,6 @@ nav .profile-link a {
     padding-left: 10px;
     max-width: 30%;
     margin-bottom: 50px;
-    margin-right: 11px;
 }
 .blogs-posts-container .post-container p {
     margin-bottom: 35px;
@@ -205,4 +209,44 @@ footer {
 footer p {
     color: white;
     margin-top: 30px;
+}
+
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+.blogpost-img-container img {
+    width: 100%;
+}
+.blogpost-main.container {
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+.blogpost-main-container section h1 {
+    font-size: 35px;
+}
+.contact-main-container {
+    width: 100%;
+    height: 250px;
+    background-color: #ebd1e3;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 85px;
+}
+.contact-main-container img {
+    width: 100px;
 }
