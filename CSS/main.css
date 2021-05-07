@@ -41,8 +41,10 @@ a {
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    margin: 0 50px;
-    
+    margin: 0 25px;
+}
+.icons-container .icons-section a {
+    display: block;
 }
 .icons-container .icons-section .facebook-icon {
     background-image: url('../assets/icons/facebooklogo.svg');
@@ -92,7 +94,7 @@ header {
 header .nav-container {
     width: 100%;
     height: auto;
-    margin: 0 50px;
+    margin: 0 25px;
 }
 header .nav-container ul {
     width: 100%;
@@ -127,7 +129,10 @@ header .nav-container ul {
     border-bottom: 1px solid var(--black);
 }
 .home-main {
-    height: 100vh;
+    display: flex;
+    height: 85vh;
+    justify-content: center; 
+    align-items: center;
     background-image: url('../assets/imgs/background.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -135,25 +140,26 @@ header .nav-container ul {
 }
 .home-main section {
     text-align: center;
-    justify-content: center;
-    padding: 50px 50px;
-}
+} 
 .home-main-text {
     font-size: 37px;
     font-weight: 400;
     font-family: 'Righteous', sans-serif;
     letter-spacing: 5px;
-    color: var(--white);
+    background: -webkit-linear-gradient(268deg, #ffffff, rgb(0, 255, 238) 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    /* color: var(--white); */
     padding-bottom: 50px;
 }
 .home-main-buttom {
     border: 1px solid var(--main-violet);
-    background: var(--main-violet);
-    transition: all ease .3s;
-    border-radius: 3px;
-    padding: 8px 5px;
+    padding: 10px 15px;
+    background-image: linear-gradient(to right bottom, #6d13a6, #660eb1, #5b0cbc, #4c0dc7, #3210d3);
+    transition: all ease .5s;
+    border-radius: 5px;
 }
-.home-main-buttom a {
+.home-main-buttom {
     font-weight: 700;
     font-size: 18px;
     color: var(--white);
@@ -161,7 +167,7 @@ header .nav-container ul {
     font-family: 'Roboto', sans-serif;
 }
 .home-main-buttom:hover {
-        background: #62218a;
+    background-image: linear-gradient(to left top, #6d13a6, #660eb1, #5b0cbc, #4c0dc7, #3210d3);
         color: rgb(242, 239, 239);
 }
 
