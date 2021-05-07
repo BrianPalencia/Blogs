@@ -1,0 +1,13 @@
+.home-main section {
+    padding: 160px 50px;
+}
+.home-main-text {
+    font-size: 100px;
+    letter-spacing: 10px;
+}
+.home-main-buttom {
+    padding: 15px 12px;
+}
+.home-main-buttom a {
+    font-size: 25px;
+}
