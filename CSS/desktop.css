@@ -1,10 +1,27 @@
-/* .home-main section {
-    padding: 140px 50px;
-} */
+
 .home-main-text {
     font-size: 79px;
     letter-spacing: 10px;
 }
-/*.home-main-buttom {
-    padding: 10px 7px;
-}*/
+.blogs-news-container {
+    padding: 0 53px 40px;
+}
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+    text-align: start;
+}
+.blogs-main-new h3 {
+    padding: 8px 0;
+}
+.blogs-news-img-container {
+    grid-column: 1;
+}
+.blogs-news-info-container {
+    grid-column: 2;
+    padding-top: 35px;
+}
+.grid-container .post-container {
+    max-width: 30%;
+}
