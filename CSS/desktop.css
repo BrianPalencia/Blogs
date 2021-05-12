@@ -25,3 +25,29 @@
 .grid-container .post-container {
     max-width: 30%;
 }
+.contact-main-container {
+    width: 100%;
+    height: 200px;
+    background-color: #ebd1e3;
+    text-align: center;
+}
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+}
+.contact-main-container .contact-left, .contact-right {
+    font-size: 15px;
+}
+
+.contact-main-container img {
+    width: 100px;
+    margin-top: 35px;
+}
+.profile-projects-container .project-container {
+    max-width: 31%;
+}
+

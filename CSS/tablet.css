@@ -10,10 +10,52 @@ header .nav-container {
 }
 .grid-container .post-container {
     display: inline-block;
-    text-align: center;
     max-width: 40%;    
     margin: 0 3px 25px;
 }
 .post-container {
     padding: 15px;
+}
+.contact-main-container {
+    height: 130px;
+    padding-bottom: 20px;
+}
+.contact-main-container div {    
+}
+.contact-main-container .contact-left, .contact-right {
+    font-size: 13px;    
+    margin-top: 45px;
+}
+.contact-main-container img {
+    width: 60px;
+}
+.profile-main {
+    display: grid;
+}
+.profile-container {
+    background-color: #ebd1e3;
+    padding: 0 50px 40px;
+}
+.profile-main-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 35px;
+}
+.profile-img-container {
+    grid-column: 1;
+}
+.profile-img-container img {
+    width: 85%;
+    border-radius: 150px;
+}
+.profile-info-container {
+    grid-column: 2;
+    padding: 55px;
+    text-align: start;
+}
+.profile-info-container p {
+    margin-bottom: 35px;
+}
+.profile-projects-container .project-container {
+    max-width: 40%;
 }
